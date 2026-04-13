@@ -12,7 +12,7 @@ def get_unified_gradient():
         ],
     )
 
-# --- 2. Función para las targetas Verticales ---
+# --- 2. Función para las tarjetas Verticales ---
 def create_modern_card(title, description, on_click_destination):
     return ft.Container(
         content=ft.Column(
@@ -99,7 +99,7 @@ def create_staff_card(name, description):
         border=ft.border.all(1, "#f0f0f0"),
     )
 
-# Ajustes para la grafica y donde se aran las opereaciones
+# Ajustes para la grafica y donde se harán las operaciones
 # --- Estilos ---
 in_style: dict = {
     "expand": 1,
@@ -336,3 +336,5 @@ def main(page: ft.Page):
     page.window_width = 1100
     page.window_height = 850
     primera_pantalla(page)
+
+main()
