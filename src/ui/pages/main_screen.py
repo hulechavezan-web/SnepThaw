@@ -23,6 +23,7 @@ def main_screen(page: ft.Page):
                 size = 18
             ),
             ft.Divider(color = ft.Colors.WHITE_24),
+            ft.Container(),
             ft.Text(
                 value = "Inicio",
                 color = TEXT_COLOR,
